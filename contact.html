@@ -50,7 +50,7 @@
                                 </div>
                             </div>
                             <div class="col-xl-10 col-lg-10 col-md-10">
-                                <div class="menu-main d-flex align-items-center justify-content-end">
+                                <div class="menu-main d-flex align-items-center justify-content-center">
                                     <!-- Main-menu -->
                                     <div class="main-menu f-right d-none d-lg-block">
                                         <nav> 
@@ -63,8 +63,8 @@
                                             </ul>
                                         </nav>
                                     </div>
-                                    <div class="header-right-btn f-right d-xs-12 d-xl-block ml-20">
-                                        <a href="contact.html" class="btn header-btn btn1">Get Free Consultant</a>
+                                    <div class="header-right-btn d-xs-12 d-xl-block">
+                                        <a href="contact.html" class="btn header-btn btn1 ">Get Free Consultant</a>
                                     </div>
                                 </div>
                             </div>   
@@ -135,7 +135,7 @@
                                 </div>
                             </div>
                             <div class="form-group mt-3">
-                                <button type="submit" class="button button-contactForm boxed-btn">Send</button>
+                                <button type="submit" disabled="disabled" id="submitbutton"  class="button button-contactForm boxed-btn">Send</button>
                             </div>
                         </form>
                     </div>
@@ -247,6 +247,7 @@
 		<!-- Jquery Plugins, main Jquery -->	
         <script src="./assets/js/plugins.js"></script>
         <script src="./assets/js/main.js"></script>
+        <script src="./assets/js/submitvalidation.js"></script>
 
         <script>
             $("#contactForm").submit((e)=>{
